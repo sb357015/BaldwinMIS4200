@@ -22,7 +22,7 @@ namespace BaldwinMIS4200.Controllers
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "My contact page.";
+            ViewBag.Message = "Seth Baldwin's contact info.";
 
             return View();
         }
