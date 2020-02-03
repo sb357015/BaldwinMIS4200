@@ -15,7 +15,7 @@ namespace BaldwinMIS4200.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "My MIS4200 Description Page";
+            ViewBag.Message = "My MIS4200 Description Page.";
 
             return View();
         }
