@@ -12,5 +12,7 @@ namespace BaldwinMIS4200.Models
         public decimal percentageGrade { get; set; }
 
         public ICollection<CourseDetail> CourseDetail { get; set; }
+
+        public int instructorID { get; set; }
     }
 }
