@@ -21,16 +21,36 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
+                    <li>
+
+                        <p>
+                            Email:
+                            <a href="https://outlook.live.com/owa/" class="btn btn-info btn-lg">
+                                <span class="glyphicon glyphicon-envelope"></span>
+                            </a>
+                        </p>
+                    </li>
                     <li>@Html.ActionLink("Home Page", "Index", "Home")</li>
                     <li>@Html.ActionLink("About", "About", "Home")</li>
                     <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
-                    <li>@Html.ActionLink("Students", "Index", "Students")</li> 
-                    <li>@Html.ActionLink("Courses", "Index", "Courses")</li>
-                    <li>@Html.ActionLink("Grades", "Index", "Grades")</li>
-                </ul>
 
+                </ul>
+            
                 @Html.Partial("_LoginPartial")
+            
+            <div class="dropdown">
+            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+                Select an option
+            <span class="caret"></span>
+            </button>
+            
+            <ul class="dropdown-menu">
+            <li><a href="#"></a>@Html.ActionLink("Students", "Index", "Students")</li>
+            <li><a href="#"></a>@Html.ActionLink("Courses", "Index", "Courses")</li>
+            <li><a href="#"></a>@Html.ActionLink("Grades", "Index", "Grades")</li>
+            </ul>
             </div>
+</div>
         </div>
     </div>
     <div class="container body-content">

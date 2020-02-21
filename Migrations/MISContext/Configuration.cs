@@ -12,6 +12,7 @@ namespace BaldwinMIS4200.Migrations.MISContext
             AutomaticMigrationsEnabled = true;
             MigrationsDirectory = @"Migrations\MISContext";
             ContextKey = "BaldwinMIS4200.DAL.MIS4200Context";
+            AutomaticMigrationDataLossAllowed = true;
         }
 
         protected override void Seed(BaldwinMIS4200.DAL.MIS4200Context context)
